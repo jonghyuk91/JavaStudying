@@ -1,0 +1,36 @@
+public class Data01 {
+	
+	 한줄 주석문. 주석문이란 comment로서 실행되지 않는다. 소스에 대한설명.
+	 한줄 이상 주석문 기호
+	  
+	  키워드는 약속된 명령문으로 변수명으로 사용못한다.
+	  키워드종류)
+	   1.public  누구나 다  접근 할수있는 접근 제어자.
+	   2.class  클래스명을 정의하때 사용
+	   3.staic  해당 클래스명으로 직접접근 할수있는 정적메서드 즉 클래스 매서드를
+	   정의할때 사용.main()은 정적메스드로서 가장먼저 실행해서 호출된다.
+	   4.void 리턴타입이없다.반환값이 없다 
+	 
+	
+
+	public static void main(String[] args) {
+	
+		
+	System.out.println(10L);System.out은 출력장치 모니터와 연결.
+	println()는 출력할라는뜻.ln은 줄바꿈, 10L에서 L(l)은 long타입
+	숫자값 다음에 붙는 접미사
+	System.out.println(10.3f);fliat실수 숫자 타입 값뒤는 접미사F(f)
+	 가붙는다.
+	System.out.println('a'); 'a'는 단일문자 a는 char타입으로 십진수정수
+	로 저장
+	System.out.println(true);boolean타입
+	System.out.println(abc);string 문자열참조타입
+	}
+}
+
+-------------------------------------------------------------------------------------
+10
+10.3
+a
+true
+abc
